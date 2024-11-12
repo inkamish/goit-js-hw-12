@@ -2,6 +2,8 @@ body {
   background-color: #fafafad7;
   color: #212121;
   line-height: 1.5;
+  position: relative;
+  padding-bottom: 56px;
 }
 
 h1,
@@ -33,8 +35,8 @@ a {
 img {
   display: block;
   width: 100%;
-  height: 100%;
   flex-grow: 1;
+  object-fit: cover;
 }
 
 .gallery {
@@ -137,4 +139,15 @@ input:focus {
   100% {
     transform: rotate(360deg);
   }
+}
+
+#load-more-btn {
+  display: block;
+  width: fit-content;
+  padding: 8px 16px;
+  display: none;
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
 }
