@@ -40,16 +40,27 @@ img {
 }
 
 .gallery {
+<<<<<<< HEAD
   min-width: 320px;
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin: 0 auto;
   padding: 24px;
+=======
+  max-width: 1228px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+  padding: 24px 0;
+>>>>>>> 0ed0f78fca21ac33e72f6cc8390bb3f34bcf3146
 }
 
 .gallery-item {
   flex-basis: calc((100% - 48px) / 3);
+<<<<<<< HEAD
   border: 1px solid #21212120;
   display: flex;
   flex-direction: column;
@@ -90,6 +101,12 @@ img {
   .gallery-item {
     flex-basis: calc((100% - 48px) / 3);
   }
+=======
+  border: 1px solid #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+>>>>>>> 0ed0f78fca21ac33e72f6cc8390bb3f34bcf3146
 }
 
 form {
@@ -97,7 +114,10 @@ form {
   gap: 8px;
   justify-content: center;
   margin-top: 36px;
+<<<<<<< HEAD
   padding: 0 24px;
+=======
+>>>>>>> 0ed0f78fca21ac33e72f6cc8390bb3f34bcf3146
 }
 
 button {
@@ -119,8 +139,12 @@ button {
   width: 95px;
 }
 
+<<<<<<< HEAD
 button:hover,
 button:focus {
+=======
+button:hover {
+>>>>>>> 0ed0f78fca21ac33e72f6cc8390bb3f34bcf3146
   background-color: #6c8cff;
 }
 
